@@ -1,0 +1,33 @@
+Aufgabe 1: print
+
+ - Gebe in der Konsole "Hello World!" aus
+
+Aufgabe 2: variablen
+
+ - Setze eine variable vom typ int und gebe sie in der Konsole aus. (z.B dein Alter)
+ - Setze eine variable vom typ string und gebe sie in der Konsole aus. (z.B dein Name)
+ - Setze eine liste und gebe sie in der Konsole aus (z.B deine Lieblingsgerichte)
+ - Gebe folgende Ausgabe aus: Ich heiße [name] und bin [alter] Jahre alt und esse am liebsten [lieblingsgerichte]
+
+Aufgabe 3: schleifen 
+
+ - Gebe in der Konsole deine Lieblingsgerichte aus.
+ - Gebe deine Lieblingsgerichte in einer Zeile in der Konsole aus
+
+Aufgabe 4: if / else
+
+ - Setze eine Variable fürs Alter und prüfe, ob eine Person alt genug für Alkohol ist
+
+Aufgabe 5: funktionen
+
+ - Erstelle eine Funktion, die dein Alter mit einer zahl addiert und dann ausgibt.
+ - Erstelle eine Funktion, die deinen Namen so oft ausgibt, wie du Jahre alt bist.
+
+Aufgabe 6: user input
+
+ - Erstelle eine Funktion, die deine Daten aufnimmt (alter, name, essen) und dies dann in der Konsole ausgibt.
+
+Aufgabe 7: try / except
+
+ - Modifiziere die Eingabe so, dass der Nutzer keinen Quatsch eingeben kann
+
