@@ -1,5 +1,5 @@
 import os, sys
-os.system('clear')
+
 
 
 felder = ["1","2","3","4","5","6","7","8","9"]
@@ -35,11 +35,12 @@ def pruefe_sieg():
     for pruef_feld in pruef_felder:
         sieg, sieger = pruefe_feld(pruef_feld)
         if (sieg):
-            sys.exit(f"{sieger} hat gewonnen!")
-
-
-
-
+            print(f"{sieger} hat gewonnen!")
+            neue_runde = input("Möchtest du eine neue Runde spielen? [y/n]: ")
+            if neue_runde == "y":
+                starte_spiel()
+            else: 
+                sys.exit("Spiel beendet!")
 
 def print_feld():
     print(f"{felder[0]}|{felder[1]}|{felder[2]}\n-----\n{felder[3]}|{felder[4]}|{felder[5]}\n-----\n{felder[6]}|{felder[7]}|{felder[8]}\n")
@@ -92,14 +93,14 @@ def wahl(skip_x=False):
     
     wahl(False)
 
-print_feld()
-wahl(False)
+def starte_spiel():
+    global feldercl
+    os.system('clear')
+    felder = ["1","2","3","4","5","6","7","8","9"]
+    print_feld()
+    wahl(False)
 
-    
 
-
-
-
-
-# print(repr(f"{bcolors.OKCYAN}Warning: No active frommets remain. Continue?{bcolors.ENDC}"))
-# print(f"{bcolors.FAIL}Warning: No active frommets remain. Continue?{bcolors.ENDC}")
+starte_spiel()
+# if __name__ == "__main__":
+#     starte_spiel()
