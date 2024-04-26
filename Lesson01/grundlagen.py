@@ -18,7 +18,7 @@ print("Hello World!")
 
 # %%
 alter = 17
-name = "Kirill"
+name = "John"
 essen = ["pizza", "chicken nuggets", "mc flurry"]
 
 print("Ich heiße", name, "und bin", alter, "Jahre alt und esse am liebsten", essen, ".")
